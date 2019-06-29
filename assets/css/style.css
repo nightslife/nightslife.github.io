@@ -17,10 +17,10 @@
     width: 325px;
     color: #ffffff;
     line-height: 36px;
-    padding: 15px 0 16px 0;
+    padding: 16px 0 16px 0;
     text-align: center;
     float: left;
-    border: 1px solid #777777;
+    /* border: 1px solid #777777; */
 }
 .navbar{
     float:  right;
@@ -64,11 +64,14 @@ a.home{
     margin: 1% auto;
     border: 1px solid #ddd;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
+    /* overflow: auto; */
 }
 body{
     background-color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../images/white-waves/white-waves.png)
+    background-image: url(../images/white-waves/white-waves.png);
+    overflow: auto;
 }
 footer{
     border-top: 5px solid #4aaaa5;
@@ -140,7 +143,7 @@ input[type=submit]:hover {
 label{
     margin: 10px;
 }
-img{
+img.propic{
     height: 150px;
     width: 150px;
     float: left;
@@ -159,4 +162,58 @@ img{
 }
 p{
   width: 900px;  
+}
+img.portpics{
+    height: 250px;
+    width: 300px;
+    margin-left:10px;
+    margin-right: 50px;
+}
+.hangman{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    float: left;
+}
+.textover{
+    position: absolute;
+    background-color: #4aaaa5;
+    bottom: 20px;
+    left: 10px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+    color:#ffffff;
+    font-size: 20px;
+}
+.rpg{
+    position: relative;
+    top: 20px;
+    left: 0px;
+    float: left;
+}
+.trivia{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    float: left;
+}
+.widget{
+    position: relative;
+    top: 50px;
+    left: 0px;
+    float: left;
+}
+.rps{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    float: left;
+}
+.clearfix::after{
+   content: "";
+   clear: both;
+   display: table;
 }
