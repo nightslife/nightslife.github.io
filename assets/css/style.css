@@ -61,11 +61,13 @@ a.home{
 .Pcontent{
     background-color: #ffffff;
     width: 960px;
-    margin: 1% auto;
+    margin: 1% auto auto;
     border: 1px solid #ddd;
+    padding-bottom: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: auto;
-    /* overflow: auto; */
+    
+
 }
 body{
     background-color: #777777;
@@ -208,7 +210,7 @@ img.portpics{
 }
 .rps{
     position: relative;
-    top: 50px;
+    top: 100px;
     left: 20px;
     float: left;
 }
