@@ -61,12 +61,11 @@ a.home{
 .Pcontent{
     background-color: #ffffff;
     width: 960px;
-    margin: 1% auto auto;
+    margin: 1% auto 5%;
     border: 1px solid #ddd;
     padding-bottom: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: auto;
-    
 
 }
 body{
@@ -125,12 +124,11 @@ input[type=submit] {
     border-radius: 3px;
     cursor: pointer;
     margin: 0 10px;
-  }
+}
   
-
 input[type=submit]:hover {
     background-color: #4aaaa5;
-  }
+}
   
 .container {
     background-color: #fafafa;
@@ -138,7 +136,7 @@ input[type=submit]:hover {
     width: 900px;
     margin: 15px auto;
     border-radius: 10px;
-  }
+}
 .contactform{
     color: #777
 }
@@ -210,7 +208,7 @@ img.portpics{
 }
 .rps{
     position: relative;
-    top: 100px;
+    top: 80px;
     left: 20px;
     float: left;
 }
@@ -218,4 +216,10 @@ img.portpics{
    content: "";
    clear: both;
    display: table;
+}
+.wrapper{
+    height: 850px;
+}
+::-webkit-scrollbar{
+    display: none;
 }
