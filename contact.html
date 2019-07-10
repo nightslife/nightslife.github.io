@@ -1,55 +1,59 @@
 <!DOCTYPE html>
-<html>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+<html lang="en-us">
 
 <head>
-    <title>Contact - Michael Dubois</title>
-</head>   
-    <body>
-        <header class="MainHeader">
-            <div class=headcontent>
-                <div class="name">
-                    Michael Dubois 
-                </div>
-                <div class="navbar">
-                    <div class="nav">
-                        <a class="change" href="index.html">About</a>
-                    </div>
-                    <div class="navmiddle">
-                        <a class="change" href="portfolio.html">Portfolio</a>
-                    </div>
-                    <div class="nav">
-                        <a class="home" href="#">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="Pcontent">
-            <header class="topic">
-                Contact Me
-            </header>
-            <div class="container">
-                <div class="contactform">
-                    <form action="#">
-                        <label for="fname">Full Name: </label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name here...">
-                        <label for="email">Email Address: </label>
-                        <input type="text" id="email" email="email" placeholder="Enter email here...">
-                        <label for="subject">Subject: </label>
-                        <textarea id="subject" name="subject" placeholder="Enter message here..." style="height:200px"></textarea>
+  <meta charset="UTF-8">
+  <title>Contact | Michael Dubois</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-                        <input type="submit" value="Submit">
+<body>
 
-                    </form>
-                </div>
-            </div>
-        </div> 
-   
-    </body>
-    <footer>
-        <div class="copyright">
-            Copyright©
-        </div>
-    </footer>
+  <header id="masthead">
+    <div class="logo-container">
+      <a href="index.html" id="logo">Michael Dubois</a>
+    </div>
+    <div class="nav-container">
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
 </html>
